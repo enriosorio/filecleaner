@@ -27,7 +27,7 @@
 
 ## 📦 Instalação e uso passo a passo
 
-### 1. Pré-requisitos
+## 1. Pré-requisitos
 Certifique-se de ter o **Node.js** instalado:
 
 node -v
@@ -42,10 +42,10 @@ sudo npm install -g pnpm
 ## 4. Inicializar o projeto com pnpm
 pnpm init
 
-# 5. Adicionar dependências necessárias
+## 5. Adicionar dependências necessárias
 pnpm add fs-extra inquirer
 
-### 6. Estrutura do projeto
+## 6. Estrutura do projeto
 mkdir src
 touch src/index.js .gitignore README.md
 echo "node_modules/" > .gitignore
@@ -71,11 +71,11 @@ git remote add origin https://github.com/enriosorio/filecleaner.git
 git push -u origin main
 git push -u origin dev
 
-# 11. Testes realizados
+## 11. Testes realizados
 Teste com diretórios sem arquivos duplicados (./, ~/Documentos) — retorno apropriado.
 
 Teste com diretório contendo duplicatas (~/Downloads) — arquivos identificados corretamente.
 
-# 12. Colaboração
+## 12. Colaboração
 
-O projeto foi desenvolvido em dupla, com o primeiro commit feito pela colaboradora Jheniffer e o segundo por Enri.
+O projeto foi desenvolvido em dupla, por: Enri Osorio e Jheniffer Akycharia.
